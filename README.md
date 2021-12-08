@@ -1,3 +1,9 @@
+# Fork of Humanoid-themes for Emacs
+
+Minor changes like:
+
+- added blue border around mode-line for recognizing boundaries between windows.
+
 # Humanoid-themes for Emacs
 
 Humanoid theme is an Emacs color theme package that started as a theme for [spacemacs](https://github.com/syl20bnr/spacemacs).
