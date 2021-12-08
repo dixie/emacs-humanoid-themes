@@ -300,9 +300,9 @@ or similar."
      `(outline-8                     ((,class (:inherit ,(if humanoid-themes-org-bold 'bold 'default) :background ,(when humanoid-themes-org-highlight head8-bg) :foreground ,head8))))
 
      ;;; mode-line
-     `(mode-line           ((,class (:background ,bg2 :foreground ,base :box nil :underline nil))))
+     `(mode-line           ((,class (:background ,bg2 :foreground ,base :box (:color ,blue :line-width 1) :underline nil))))
      `(mode-line-active    ((,class (:inherit mode-line :inherit variable-pitch :height 100))))
-     `(mode-line-inactive  ((,class (:background ,bg2 :foreground ,comment :box nil :underline nil))))
+     `(mode-line-inactive  ((,class (:background ,bg2 :foreground ,comment :box (:color ,blue-dark :line-width 1) :underline nil))))
      `(mode-line-buffer-id ((,class (:foreground ,base :weight normal))))
      `(mode-line-highlight ((,class (:background ,bg3 :foreground ,base :box nil :underline nil))))
      `(header-line         ((,class (:background ,bg1 :foreground ,base :distant-foreground ,bg1))))
