@@ -287,7 +287,7 @@ or similar."
      `(tooltip                             ((,class (:background ,ttip-sl :foreground ,base :weight unspecified :slant unspecified :underline nil))))
      `(vertical-border                     ((,class (:foreground ,border))))
      `(warning                             ((,class (:foreground ,war :imherit bold))))
-     `(window-divider                      ((,class (:foreground ,bg2)))) ; foreground same like `mode-line' background
+     `(window-divider                      ((,class (:foreground ,blue-light))))
 
      ;;; outline
      `(outline-1                     ((,class (:inherit ,(if humanoid-themes-org-bold 'bold 'default) :background ,(when humanoid-themes-org-highlight head1-bg) :foreground ,head1 :height ,(if humanoid-themes-org-height 1.3 1.0)))))

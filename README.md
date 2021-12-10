@@ -3,6 +3,7 @@
 Minor changes like:
 
 - added blue border around mode-line for recognizing boundaries between windows.
+- window-divider is blue-light, again for better visibility of windows boundaries.
 
 # Humanoid-themes for Emacs
 
